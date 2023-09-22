@@ -1,0 +1,70 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.hpBar{
+    background-color: red;
+    height: 20px; 
+    position: absolute;  
+}
+
+.enemyHpBar{    
+    width: min(100%,600px);
+    margin: 10px auto;  
+}
+
+.playerHpBar{
+  margin: 10px;
+  width: calc(100% - 20px);
+  top: 90%;
+}
+
+.enemy1{
+    background-color: rgb(24, 23, 23);
+    width: 200px;
+    height: 200px;
+    margin: 5% auto;
+    transform: translate(50%, 50%);
+}
+
+.enemyDisplay{
+    width: 100%;
+    height: 50vh;
+    background-color: teal;
+    display: flex;
+    justify-content: space-around;
+}
+
+.playerDisplay{
+    width: 100%;
+    height: 50vh;
+    background-color: darkorange;
+    display: flex;
+    justify-content: center;
+    gap:1%;
+}
+
+#attackButton{
+    align-self: flex-end;
+    padding: 20px 50px; 
+    margin: 20px;  
+}
+
+.playerCharacter{
+    position: relative;
+    background-color: darkmagenta;
+    width: 20%;
+    height: 100%;
+}
+
+.playerSkills{
+    position:absolute;
+}
+
+.playerSkills button{
+    position: fixed;
+    left: 50%;
+}
+
+
